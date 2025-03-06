@@ -23,7 +23,7 @@ Run the script with the following commands:
 
 ### Add an expense
 ```sh
-python expense_tracker.py add --description "Lunch" --amount 20
+python main.py add --description "Lunch" --amount 20
 ```
 Output:
 ```
@@ -32,7 +32,7 @@ Expense added successfully (ID: 1)
 
 ### List all expenses
 ```sh
- python expense_tracker.py list
+ python main.py list
 ```
 
 Output:
@@ -44,7 +44,7 @@ ID  Date       Description  Amount
 ### Delete an expense
 
 ```sh
-python expense_tracker.py delete --id 1
+python main.py delete --id 1
 ```
 
 Output:
@@ -56,7 +56,7 @@ Expense deleted successfully
 ### View total expenses summary
 
 ```sh
-python expense_tracker.py summary
+python main.py summary
 ```
 
 Output:
@@ -66,7 +66,7 @@ Total expenses: 20
 
 ### View summary for a specific month
 ```sh
- python expense_tracker.py summary --month 8
+ python main.py summary --month 8
 ```
 Output:
 ```
