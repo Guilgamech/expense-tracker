@@ -14,8 +14,8 @@ A simple command-line application to track expenses. Users can add, delete, and 
 ## Installation
 Ensure you have Python installed on your system. Clone this repository and navigate to the project directory.
 ```sh
-$ git clone <repository-url>
-$ cd expense-tracker
+ git clone <repository-url>
+ cd expense-tracker
 ```
 
 ## Usage
@@ -32,12 +32,13 @@ Expense added successfully (ID: 1)
 
 ### List all expenses
 ```sh
-$ python expense_tracker.py list
+ python expense_tracker.py list
 ```
+
 Output:
 ```
 ID  Date       Description  Amount
-1   2024-08-06  Lunch        $20
+1   2024-08-06  Lunch        20
 ```
 
 ### Delete an expense
@@ -60,16 +61,16 @@ python expense_tracker.py summary
 
 Output:
 ```
-Total expenses: $20
+Total expenses: 20
 ```
 
 ### View summary for a specific month
 ```sh
-$ python expense_tracker.py summary --month 8
+ python expense_tracker.py summary --month 8
 ```
 Output:
 ```
-Total expenses for August: $20
+Total expenses for August: 20
 ```
 
 ## Requirements
